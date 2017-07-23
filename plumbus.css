@@ -1,0 +1,51 @@
+/*This is the Space Background */
+body {
+  background-image: url("img/Rick and Morty Space Background.png");
+  background-attachment: fixed;
+}
+header {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6); /* The 0.6 sets background-color opacity. */
+  text-align: center;
+  font-size: 20px;
+  border-radius: 25px; /* This creates the rounded corners */
+}
+ul {
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    border-radius: 25px;
+}
+li {
+  display: inline;
+padding: 8%;
+border-radius: 25px;
+}
+li a {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #b9d44d;
+    text-decoration: none;
+}
+#list {
+  color: white;
+}
+/* Change the link color on hover */
+li a:hover {
+    background-color: #00b0c8 ;
+    color: white;
+}
+section {
+  background-color: rgba(185, 212, 77, 0.6);
+  color: white;
+  border-radius: 25px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 20%;
+    border-radius: 15px;
+    align-content: space-around;
+}
+.header {color: #00b0c8;}
